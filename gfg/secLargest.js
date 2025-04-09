@@ -1,3 +1,4 @@
+let arr = [12, 43, 21, 57, 43];
 function getSecondLargest(arr) {
   // Code Here
   if (arr.length <= 1) {
@@ -15,3 +16,5 @@ function getSecondLargest(arr) {
   }
   return sec;
 }
+
+console.log(getSecondLargest(arr));
